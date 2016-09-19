@@ -16,6 +16,10 @@ public:
     {
 
     }
+    ~Students ()
+    {
+        cout<<"Place for destructor";
+    }
 };
 
 int main()
