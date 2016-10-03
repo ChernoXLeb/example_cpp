@@ -22,8 +22,16 @@ public:
     }
 };
 
-int main()
+int main(int argc, char* argv[])
 {
+    if (argc>1)
+    {
+        cout<<argv[1]<<endl;
+    }
+    else
+    {
+        cout<<"Not Arguments"<<endl;
+    }
     cout << "Hello, World!\n";
     /*
      * int n;
